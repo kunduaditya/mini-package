@@ -28,7 +28,7 @@ This Project is created for beginners to create multiple things given below with
 or Use CDN
 
 ```http
-  CDN Comming Soon
+  https://unpkg.com/@zuaque/mini-package@1.0.0/<file>.js
 ```
 
 ## Methods of Usage
@@ -48,7 +48,7 @@ var { package } = require("@zuaque/mini-package");
 Without NPM or With CDN
 
 ```http
-  COMMING SOON...
+  https://unpkg.com/@zuaque/mini-package@1.0.0/<file>.js
 ```
 
 ## Documentation
@@ -65,6 +65,13 @@ const sampleArray = ["Orange", "Mango", "Apple"];
 sortArray(sampleArray, "asc");
 
 // Expected Output: ["Apple", "Mango", "Orange"]
+```
+
+or
+
+```html
+<script script="https://unpkg.com/@zuaque/mini-package@1.0.0/index.js"></script>
+<!-- Use Function sortArray -->
 ```
 
 Syntax:
@@ -94,6 +101,13 @@ pretty_ms(milliseconds);
 // Expected Output: 1 Minutes
 // For example if milliseconds = 600718718718700;
 // Output is 19313 years
+```
+
+or
+
+```html
+<script script="https://unpkg.com/@zuaque/mini-package@1.0.0/index.js"></script>
+<!-- Use Function pretty_ms -->
 ```
 
 Syntax:
@@ -131,6 +145,13 @@ Example:
   // Expected Output: true
 ```
 
+or
+
+```html
+<script script="https://unpkg.com/@zuaque/mini-package@1.0.0/css.js"></script>
+<!-- Use Function insertCss -->
+```
+
 Syntax:
 
 ```javascript
@@ -146,6 +167,13 @@ Add Box Shadow with Super ease without any prerequisite.
   boxShadow("medium", "gray", "box");
 
   // Expected Output: true
+```
+
+or
+
+```html
+<script script="https://unpkg.com/@zuaque/mini-package@1.0.0/css.js"></script>
+<!-- Use Function boxShadow -->
 ```
 
 ![Output Image](https://raw.githubusercontent.com/kunduaditya/mini-project/main/box-shadow.png)
@@ -179,6 +207,13 @@ Example:
   // Expected Output: true
 ```
 
+or
+
+```html
+<script script="https://unpkg.com/@zuaque/mini-package@1.0.0/css.js"></script>
+<!-- Use Function borderRadius -->
+```
+
 ![Expected Output](https://raw.githubusercontent.com/kunduaditya/mini-project/main/border.png)
 
 Syntax:
@@ -202,6 +237,13 @@ is_prime(n);
 // Here n is the number and output is true or false
 ```
 
+or
+
+```html
+<script script="https://unpkg.com/@zuaque/mini-package@1.0.0/maths.js"></script>
+<!-- Use Function is_prime -->
+```
+
 ### Is Even Number
 
 Syntax:
@@ -211,6 +253,13 @@ var { is_even } = require("@zuaque/mini-package/maths");
 is_even(n);
 
 // Here n is the number and output is true or false
+```
+
+or
+
+```html
+<script script="https://unpkg.com/@zuaque/mini-package@1.0.0/maths.js"></script>
+<!-- Use Function is_even -->
 ```
 
 ### Is Odd Number
@@ -224,6 +273,13 @@ is_odd(n);
 // Here n is the number and output is true or false
 ```
 
+or
+
+```html
+<script script="https://unpkg.com/@zuaque/mini-package@1.0.0/maths.js"></script>
+<!-- Use Function is_odd -->
+```
+
 ### Square Root
 
 Syntax:
@@ -235,6 +291,13 @@ sqrt_root(n);
 // Here n is the number and output is the number
 ```
 
+or
+
+```html
+<script script="https://unpkg.com/@zuaque/mini-package@1.0.0/maths.js"></script>
+<!-- Use Function sqrt_root -->
+```
+
 ### Any Root
 
 Syntax:
@@ -244,6 +307,13 @@ var { any_root } = require("@zuaque/mini-package/maths");
 sqrt_root(n, root);
 
 // Here n is the number, root can be square as 2, cube as 3, ... and output is the number
+```
+
+or
+
+```html
+<script script="https://unpkg.com/@zuaque/mini-package@1.0.0/maths.js"></script>
+<!-- Use Function anyy_root -->
 ```
 
 ### Round Off
@@ -259,6 +329,13 @@ round_off(n, decimal_digit);
 // Output is Rounded off Number
 ```
 
+or
+
+```html
+<script script="https://unpkg.com/@zuaque/mini-package@1.0.0/maths.js"></script>
+<!-- Use Function round_off -->
+```
+
 ### Loading
 
 Syntax:
@@ -266,6 +343,15 @@ Syntax:
 ```javascript
 var { loading } = require("@zuaque/mini-package/loading");
 loading(type);
+```
+
+or
+
+```html
+<script
+  script="https://unpkg.com/@zuaque/mini-package@1.0.0/loading.js"
+></script>
+<!-- Use Function loading -->
 ```
 
 **type** - Can be `start` or `end`.
@@ -280,6 +366,15 @@ Syntax:
 ```javascript
 var { skeleton_div_user_template } = require("@zuaque/mini-package/loading");
 loading(parent_div_id, color, count);
+```
+
+or
+
+```html
+<script
+  script="https://unpkg.com/@zuaque/mini-package@1.0.0/loading.js"
+></script>
+<!-- Use Function skeleton_div_user_template -->
 ```
 
 ![Expected Output](https://raw.githubusercontent.com/kunduaditya/mini-project/main/showcase.gif)
@@ -299,6 +394,15 @@ var { customLoader } = require("@zuaque/mini-package/loading");
 loading(code, style, count);
 ```
 
+or
+
+```html
+<script
+  script="https://unpkg.com/@zuaque/mini-package@1.0.0/loading.js"
+></script>
+<!-- Use Function customLoader -->
+```
+
 **Code** - Your HTML code of the Loader.
 
 **Style** - Your CSS style of the code
@@ -314,6 +418,13 @@ Syntax:
 ```javascript
 var uuid = require("@zuaque/mini-package/uuid");
 uuid();
+```
+
+or
+
+```html
+<script script="https://unpkg.com/@zuaque/mini-package@1.0.0/uuid.js"></script>
+<!-- Use Function uuid -->
 ```
 
 ## Authors
