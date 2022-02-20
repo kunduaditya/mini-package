@@ -1,5 +1,5 @@
 {
-  "name": "mini-package",
+  "name": "@zuaque/mini-package",
   "version": "1.0.0",
   "description": "Multiple mini packages to get started",
   "main": "index.js",
