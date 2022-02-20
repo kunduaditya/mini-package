@@ -28,7 +28,7 @@ This Project is created for beginners to create multiple things given below with
 or Use CDN
 
 ```http
-  https://unpkg.com/@zuaque/mini-package@1.0.0/<file>.js
+  https://unpkg.com/@zuaque/mini-package@1.0.11/<file>.js
 ```
 
 ## Methods of Usage
@@ -48,7 +48,7 @@ var { package } = require("@zuaque/mini-package");
 Without NPM or With CDN
 
 ```http
-  https://unpkg.com/@zuaque/mini-package@1.0.0/<file>.js
+  https://unpkg.com/@zuaque/mini-package@1.0.11/<file>.js
 ```
 
 ## Documentation
@@ -70,7 +70,9 @@ sortArray(sampleArray, "asc");
 or
 
 ```html
-<script script="https://unpkg.com/@zuaque/mini-package@1.0.0/index.js"></script>
+<script
+  script="https://unpkg.com/@zuaque/mini-package@1.0.11/index.js"
+></script>
 <!-- Use Function sortArray -->
 ```
 
@@ -106,7 +108,9 @@ pretty_ms(milliseconds);
 or
 
 ```html
-<script script="https://unpkg.com/@zuaque/mini-package@1.0.0/index.js"></script>
+<script
+  script="https://unpkg.com/@zuaque/mini-package@1.0.11/index.js"
+></script>
 <!-- Use Function pretty_ms -->
 ```
 
@@ -148,7 +152,7 @@ Example:
 or
 
 ```html
-<script script="https://unpkg.com/@zuaque/mini-package@1.0.0/css.js"></script>
+<script script="https://unpkg.com/@zuaque/mini-package@1.0.11/css.js"></script>
 <!-- Use Function insertCss -->
 ```
 
@@ -172,7 +176,7 @@ Add Box Shadow with Super ease without any prerequisite.
 or
 
 ```html
-<script script="https://unpkg.com/@zuaque/mini-package@1.0.0/css.js"></script>
+<script script="https://unpkg.com/@zuaque/mini-package@1.0.11/css.js"></script>
 <!-- Use Function boxShadow -->
 ```
 
@@ -210,7 +214,7 @@ Example:
 or
 
 ```html
-<script script="https://unpkg.com/@zuaque/mini-package@1.0.0/css.js"></script>
+<script script="https://unpkg.com/@zuaque/mini-package@1.0.11/css.js"></script>
 <!-- Use Function borderRadius -->
 ```
 
@@ -240,7 +244,9 @@ is_prime(n);
 or
 
 ```html
-<script script="https://unpkg.com/@zuaque/mini-package@1.0.0/maths.js"></script>
+<script
+  script="https://unpkg.com/@zuaque/mini-package@1.0.11/maths.js"
+></script>
 <!-- Use Function is_prime -->
 ```
 
@@ -258,7 +264,9 @@ is_even(n);
 or
 
 ```html
-<script script="https://unpkg.com/@zuaque/mini-package@1.0.0/maths.js"></script>
+<script
+  script="https://unpkg.com/@zuaque/mini-package@1.0.11/maths.js"
+></script>
 <!-- Use Function is_even -->
 ```
 
@@ -276,7 +284,9 @@ is_odd(n);
 or
 
 ```html
-<script script="https://unpkg.com/@zuaque/mini-package@1.0.0/maths.js"></script>
+<script
+  script="https://unpkg.com/@zuaque/mini-package@1.0.11/maths.js"
+></script>
 <!-- Use Function is_odd -->
 ```
 
@@ -294,7 +304,9 @@ sqrt_root(n);
 or
 
 ```html
-<script script="https://unpkg.com/@zuaque/mini-package@1.0.0/maths.js"></script>
+<script
+  script="https://unpkg.com/@zuaque/mini-package@1.0.11/maths.js"
+></script>
 <!-- Use Function sqrt_root -->
 ```
 
@@ -312,7 +324,9 @@ sqrt_root(n, root);
 or
 
 ```html
-<script script="https://unpkg.com/@zuaque/mini-package@1.0.0/maths.js"></script>
+<script
+  script="https://unpkg.com/@zuaque/mini-package@1.0.11/maths.js"
+></script>
 <!-- Use Function anyy_root -->
 ```
 
@@ -332,7 +346,9 @@ round_off(n, decimal_digit);
 or
 
 ```html
-<script script="https://unpkg.com/@zuaque/mini-package@1.0.0/maths.js"></script>
+<script
+  script="https://unpkg.com/@zuaque/mini-package@1.0.11/maths.js"
+></script>
 <!-- Use Function round_off -->
 ```
 
@@ -349,7 +365,7 @@ or
 
 ```html
 <script
-  script="https://unpkg.com/@zuaque/mini-package@1.0.0/loading.js"
+  script="https://unpkg.com/@zuaque/mini-package@1.0.11/loading.js"
 ></script>
 <!-- Use Function loading -->
 ```
@@ -372,7 +388,7 @@ or
 
 ```html
 <script
-  script="https://unpkg.com/@zuaque/mini-package@1.0.0/loading.js"
+  script="https://unpkg.com/@zuaque/mini-package@1.0.11/loading.js"
 ></script>
 <!-- Use Function skeleton_div_user_template -->
 ```
@@ -398,7 +414,7 @@ or
 
 ```html
 <script
-  script="https://unpkg.com/@zuaque/mini-package@1.0.0/loading.js"
+  script="https://unpkg.com/@zuaque/mini-package@1.0.11/loading.js"
 ></script>
 <!-- Use Function customLoader -->
 ```
@@ -423,7 +439,7 @@ uuid();
 or
 
 ```html
-<script script="https://unpkg.com/@zuaque/mini-package@1.0.0/uuid.js"></script>
+<script script="https://unpkg.com/@zuaque/mini-package@1.0.11/uuid.js"></script>
 <!-- Use Function uuid -->
 ```
 
